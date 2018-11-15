@@ -1,0 +1,12 @@
+C:\Users\ghell\source\repos\HiddenPowerShellDll\HiddenPowerShellDll\bin\Release\HiddenPowerShellDll.dll
+C:\Users\ghell\source\repos\HiddenPowerShellDll\HiddenPowerShellDll\bin\Release\HiddenPowerShellDll.pdb
+C:\Users\ghell\source\repos\HiddenPowerShellDll\HiddenPowerShellDll\obj\Release\HiddenPowerShellDll.csprojAssemblyReference.cache
+C:\Users\ghell\source\repos\HiddenPowerShellDll\HiddenPowerShellDll\obj\Release\HiddenPowerShellDll.csproj.CoreCompileInputs.cache
+C:\Users\ghell\source\repos\HiddenPowerShellDll\HiddenPowerShellDll\obj\Release\HiddenPowerShellDll.dll
+C:\Users\ghell\source\repos\HiddenPowerShellDll\HiddenPowerShellDll\obj\Release\HiddenPowerShellDll.pdb
+Z:\source\repos\HiddenPowerShellDll\HiddenPowerShellDll\bin\Release\HiddenPowerShellDll.dll
+Z:\source\repos\HiddenPowerShellDll\HiddenPowerShellDll\bin\Release\HiddenPowerShellDll.pdb
+Z:\source\repos\HiddenPowerShellDll\HiddenPowerShellDll\obj\Release\HiddenPowerShellDll.csprojAssemblyReference.cache
+Z:\source\repos\HiddenPowerShellDll\HiddenPowerShellDll\obj\Release\HiddenPowerShellDll.csproj.CoreCompileInputs.cache
+Z:\source\repos\HiddenPowerShellDll\HiddenPowerShellDll\obj\Release\HiddenPowerShellDll.dll
+Z:\source\repos\HiddenPowerShellDll\HiddenPowerShellDll\obj\Release\HiddenPowerShellDll.pdb
