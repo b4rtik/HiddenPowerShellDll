@@ -3,10 +3,12 @@
 
 This project was created to explore the various evasion techniques involving PowerShell
 
-Amsi
-ScriptBlockLogging
-Constrained Language Mode
-AppLocker
+<ul>
+ <li>Amsi</li>
+<li>ScriptBlockLogging</li>
+<li>Constrained Language Mode</li>
+<li>AppLocker</li>
+</ul>
 
 # Metasploit module and payload
  
@@ -33,15 +35,16 @@ Copy the bin\Release\x64\HiddenPowerShellDll.dll file to $(metasploit_data_dir)/
 If you run a payload meterpreter set PrependMigrate advanced property to true
 
 To run the Empire payload:
-Create the http listener in Empire
-framework and use the StagingKey property to set the STAGINGKEY option of the powershell_empire_http payload
-set PrependMigrate advanced property to false.
+<ul>
+ <li>Create the http listener in Empire framework and use the StagingKey property to set the STAGINGKEY option of the powershell_empire_http payload</li>
+<li>set PrependMigrate advanced property to false.</li>
+</ul>
 
 To maximize evasion it is necessary to use the https protocol for all the phases. Self signed or cloned certificates are supported. Do not use the default metasploit certificates.
 
 
 # References
 
-AMSI Bypass @_RastaMouse version
-ScriptBlockLogging @cobbr_io
-General inspiration runspace @Cneelis
+AMSI Bypass @_RastaMouse version<br>
+ScriptBlockLogging @cobbr_io<br>
+General inspiration runspace @Cneelis<br>
