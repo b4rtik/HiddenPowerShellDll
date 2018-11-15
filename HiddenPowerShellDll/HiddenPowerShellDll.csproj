@@ -78,6 +78,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\HiddenPowerShellDllCommand.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\vector.hta" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ImportGroup Label=".NET DllExport">
     <Import Project="$(SolutionDir)packages\DllExport.1.6.1\tools\net.r_eg.DllExport.targets" Condition="Exists('$(SolutionDir)packages\DllExport.1.6.1\tools\net.r_eg.DllExport.targets')" Label="8337224c9ad9e356" />

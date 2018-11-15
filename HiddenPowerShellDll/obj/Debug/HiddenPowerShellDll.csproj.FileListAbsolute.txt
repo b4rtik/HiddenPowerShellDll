@@ -1,6 +1,0 @@
-C:\Users\ghell\source\repos\HiddenPowerShellDll\HiddenPowerShellDll\obj\Debug\HiddenPowerShellDll.csprojAssemblyReference.cache
-C:\Users\ghell\source\repos\HiddenPowerShellDll\HiddenPowerShellDll\obj\Debug\HiddenPowerShellDll.csproj.CoreCompileInputs.cache
-C:\Users\ghell\source\repos\HiddenPowerShellDll\HiddenPowerShellDll\bin\Debug\HiddenPowerShellDll.dll
-C:\Users\ghell\source\repos\HiddenPowerShellDll\HiddenPowerShellDll\bin\Debug\HiddenPowerShellDll.pdb
-C:\Users\ghell\source\repos\HiddenPowerShellDll\HiddenPowerShellDll\obj\Debug\HiddenPowerShellDll.dll
-C:\Users\ghell\source\repos\HiddenPowerShellDll\HiddenPowerShellDll\obj\Debug\HiddenPowerShellDll.pdb
