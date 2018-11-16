@@ -26,13 +26,13 @@ Put the hta_sharp.rb file in the $ (HOME) /.msf4/modules/exploits/windows/misc f
 
 Put in powershell_empire_http.rb file in the $ (HOME) /.msf4/payloads/singles/windows/x64 folder
 
-Complete the solution
-Create the $ (metasploit_data_dir) / hta_sharp folder
-Copy the bin\Release\x64\HiddenPowerShellDll.dll file to $(metasploit_data_dir)/hta_sharp renaming it to HiddenPowerShellDllx64.dll
+Complete the solution<br>
+Create the $ (metasploit_data_dir) / hta_sharp folder<br>
+Copy the bin\Release\x64\HiddenPowerShellDll.dll file to $(metasploit_data_dir)/hta_sharp renaming it to HiddenPowerShellDllx64.dll<br>
 
 # Note
 
-If you run a payload meterpreter set PrependMigrate advanced property to true
+If you run a meterpreter payload set PrependMigrate advanced property to true
 
 To run the Empire payload:
 <ul>
